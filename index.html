@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content="3UU9NCkwmZUURfhJgMSuDX6moMJXJ3CIqrpfiOO9" />
+    <meta name="description" content="Earna - Consulting Business Template" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
+    <!-- ========== Page Title ========== -->
+    <title>BLK SEMARANG 2</title>
+
+    <!-- ========== Start Stylesheet ========== -->
+    <link href="landings/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="landings/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="landings/css/themify-icons.css" rel="stylesheet" />
+    <link href="landings/css/elegant-icons.css" rel="stylesheet" />
+    <link href="landings/css/flaticon-set.css" rel="stylesheet" />
+    <link href="landings/css/magnific-popup.css" rel="stylesheet" />
+    <link href="landings/css/owl.carousel.min.css" rel="stylesheet" />
+    <link href="landings/css/owl.theme.default.min.css" rel="stylesheet" />
+    <link href="landings/css/animate.css" rel="stylesheet" />
+    <link href="landings/css/bootsnav.css" rel="stylesheet" />
+    <link href="landings/style.css" rel="stylesheet" />
+    <link href="landings/css/responsive.css" rel="stylesheet" />
+    <!-- ========== End Stylesheet ========== -->
+    <style>
+      .container-iframe {
+        position: relative;
+        overflow: hidden;
+        width: 100%;
+        padding-top: 100%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+      }
+
+      /* Then style the iframe to fit in the container div with full height and width */
+      .responsive-iframe-V2 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+
+    <style>
+      .lds-grid {
+        display: inline-block;
+        position: relative;
+        width: 80px;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2.5rem;
+      }
+
+      .lds-grid div {
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        background: #1475eb;
+        animation: lds-grid 1.2s linear infinite;
+      }
+
+      .lds-grid div:nth-child(1) {
+        top: 8px;
+        left: 8px;
+        animation-delay: 0s;
+      }
+      .lds-grid div:nth-child(2) {
+        top: 8px;
+        left: 32px;
+        animation-delay: -0.4s;
+      }
+      .lds-grid div:nth-child(3) {
+        top: 8px;
+        left: 56px;
+        animation-delay: -0.8s;
+      }
+      .lds-grid div:nth-child(4) {
+        top: 32px;
+        left: 8px;
+        animation-delay: -0.4s;
+      }
+      .lds-grid div:nth-child(5) {
+        top: 32px;
+        left: 32px;
+        animation-delay: -0.8s;
+      }
+      .lds-grid div:nth-child(6) {
+        top: 32px;
+        left: 56px;
+        animation-delay: -1.2s;
+      }
+      .lds-grid div:nth-child(7) {
+        top: 56px;
+        left: 8px;
+        animation-delay: -0.8s;
+      }
+      .lds-grid div:nth-child(8) {
+        top: 56px;
+        left: 32px;
+        animation-delay: -1.2s;
+      }
+      .lds-grid div:nth-child(9) {
+        top: 56px;
+        left: 56px;
+        animation-delay: -1.6s;
+      }
+      @keyframes lds-grid {
+        0%,
+        100% {
+          opacity: 1;
+        }
+        50% {
+          opacity: 0.5;
+        }
+      }
+    </style>
+
+    <style>
+      .fill {
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        overflow: hidden !important;
+      }
+      .fill img {
+        flex-shrink: 0 !important;
+        min-width: 100% !important;
+        min-height: 100% !important;
+      }
+    </style>
+  </head>
+
+  <!-- Header -->
+  <header id="home">
+    <div class="container box-nav">
+      <div class="row">
+        <!-- Start Navigation -->
+        <nav class="navbar top-less navbar-default navbar-fixed dark bootsnav on no-full nav-box no-background">
+          <!-- Start Top Search -->
+          <div class="top-search">
+            <div class="container">
+              <div class="input-group">
+                <span class="input-group-addon"><i class="fa fa-search"></i></span>
+                <input type="text" class="form-control" placeholder="Search" />
+                <span class="input-group-addon close-search"><i class="fa fa-times"></i></span>
+              </div>
+            </div>
+          </div>
+          <!-- End Top Search -->
+
+          <div class="container nav-container">
+            <!-- Start Atribute Navigation -->
+            <div class="attr-nav">
+              <ul>
+                <!-- <li class="search"><a href="#"><i class="ti-search"></i></a></li> -->
+                <li class="side-menu">
+                  <a href="#">
+                    <span class="bar-1"></span>
+                    <span class="bar-2"></span>
+                    <span class="bar-3"></span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- End Atribute Navigation -->
+
+            <!-- Start Header Navigation -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+              </button>
+              <a class="navbar-brand" href="index.html">
+                <img src="landings/img/logo.png" class="logo" alt="Logo" />
+              </a>
+            </div>
+            <!-- End Header Navigation -->
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-menu">
+              <ul class="navbar-links navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                <li>
+                  <a class="smooth-menu" href="#home">Home</a>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="profil.html">PROFIL</a>
+                  <div class="dropdown">
+                    <a class="smooth-menu" href="#profil">Profil BLK Semarang 2</a>
+                    <a class="smooth-menu" href="#">Sejarah</a>
+                    <a class="smooth-menu" href="#">Visi & Misi</a>
+                    <a class="smooth-menu" href="#">Tugas Pokok & Fungsi</a>
+                    <a class="smooth-menu" href="#">Struktur Organisasi</a>
+                    <a class="smooth-menu" href="#">Profil Pejabat Struktural</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="program.html">PROGRAM & KEGIATAN</a>
+                  <div class="dropdown">
+                    <a class="smooth-menu" href="#">Nama Program & Kegiatan</a>
+                    <a class="smooth-menu" href="#">Kerangka Acuan Kerja</a>
+                    <a class="smooth-menu" href="#">Agenda Kegiatan</a>
+                    <a class="smooth-menu" href="#">Kerjasama Pihak Ketiga</a>
+                    <a class="smooth-menu" href="#">Renstra</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="#informasi">PUBLIKASI</a>
+                  <div class="dropdown">
+                    <a class="smooth-menu" href="#">Program</a>
+                    <a class="smooth-menu" href="#">Berita</a>
+                    <a class="smooth-menu" href="#">Pengumuman</a>
+                    <a class="smooth-menu" href="#">Donwload Materi</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="galeri.html">Galeri</a>
+                  <div class="dropdown">
+                    <a class="smooth-menu" href="#">Galeri Kegiatan</a>
+                    <a class="smooth-menu" href="#">Galeri Infografis</a>
+                    <a class="smooth-menu" href="#">Video</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="berita">Informasi Publik</a>
+                  <div class="dropdown">
+                    <a class="smooth-menu" href="#">Form Keberatan</a>
+                    <a class="smooth-menu" href="#">Form Pengaduan ASN</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="regulasi.html">Regulasi</a>
+                  <div class="dropdown">
+                    <a class="smooth-menu" href="#">Undang-undang</a>
+                    <a class="smooth-menu" href="#">Peraturan Pemerintah</a>
+                    <a class="smooth-menu" href="#">Peraturan Menteri</a>
+                    <a class="smooth-menu" href="#">Keputusan Menteri</a>
+                    <a class="smooth-menu" href="#">Peraturan Daerah</a>
+                    <a class="smooth-menu" href="#">Peraturan Gubernur</a>
+                    <a class="smooth-menu" href="#">Rapergub</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+
+          <!-- Start Side Menu -->
+          <div class="side">
+            <a href="#" class="close-side"><i class="icon_close"></i></a>
+            <div class="widget">
+              <img src="landings/img/logo.png" alt="Logo" width="50%" />
+              <p>
+                Adalah UPTD Dinas Tenaga Kerja dan Transmigrasi Provinsi Jawa Tengah dibidang pelatihan dan produktivitas tenaga kerja dan Lembaga yang mengedepankan peningkatan produktivitas guna terwujudnya keunggulan dan daya saing
+                usaha.
+              </p>
+            </div>
+            <div class="widget address">
+              <div>
+                <ul>
+                  <li>
+                    <div class="content">
+                      <p>Alamat</p>
+                      <strong>Jl. Brigjen Sudiarto No. 375, Gemah, Pedurungan, Semarang, Jawa Tengah</strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="content">
+                      <p>Kontak</p>
+                      <strong>0895322424887</strong>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="content">
+                      <p>email</p>
+                      <strong>blk.semarang2@gmail.com</strong>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- End Side Menu -->
+        </nav>
+        <!-- End Navigation -->
+      </div>
+    </div>
+  </header>
+  <!-- Header -->
+
+  <!-- Start Banner
+    ============================================= -->
+  <div class="banner-area text-default inc-shape top-pad-140p">
+    <div id="bootcarousel" class="carousel slide animate_text" data-ride="carousel">
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="box-table">
+            <div class="box-cell">
+              <div class="container">
+                <div class="row text-center">
+                  <div class="col">
+                    <div class="content">
+                      <h4 data-animation="animated zoomInRight">SELAMAT DATANG DI WEBSITE</h4>
+                      <h2 data-animation="animated slideInRight" style="font-size: 40pt !important">Balai Latihan Kerja <br />Semarang 2</h2>
+                      <!-- <a data-animation="animated zoomInUp" class="btn btn-gradient effect btn-md" href="#">Discover More</a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Wrapper for slides -->
+    </div>
+    <!-- Shape -->
+    <div class="top-left-shape wow slideInDown" style="background-image: url(landings/img/shape/6.png)"></div>
+    <!-- End Shape -->
+    <!--  -->
+  </div>
+  <!-- End Banner -->
+
+  <!-- Profil -->
+  <div class="services-area bg-gray default-padding-top bottom-less">
+    <!-- Fixed Shape -->
+    <div class="fixed-shape-right" style="background-image: url(landings/img/shape/12.png)"></div>
+    <div class="shape-left" style="background-image: url(landings/img/Shape/69.png)"></div>
+    <!-- Fixed Shape -->
+    <div id="carousel-Autoplaying" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner p-5">
+        <div class="carousel-item active">
+          <img src="landings/img/kaizen.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="landings/img/blk2.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Profil -->
+
+  <!-- Berita -->
+  <div class="berita">
+      <div class="container">
+        <div class="row text-center p-5">
+          <div class="col-lg-10 col-md-10 col-sm-12 col-12 mx-auto pb-5 position-relative">
+            <h2>Berita Terkini</h2>
+          </div>
+            <div class="row text-center">
+              <div class="single-item col-lg-4 col-md-6">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="landings/img/digital.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="link_active">
+                        <a href="https://kemnaker.go.id/"><h2>berita</h2></a>
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item col-lg-4 col-md-6">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="landings/img/produktif.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="link_active">
+                        <a href="https://kemnaker.go.id/"><h2>berita</h2></a>
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="single-item col-lg-4 col-md-6">
+                <div class="col mb-4">
+                  <div class="card">
+                    <img src="landings/img/berita.jpg" class="card-img-top" alt="..." />
+                    <div class="card-body">
+                      <div class="link_active">
+                        <a href="https://kemnaker.go.id/"><h2>berita</h2></a>
+                      </div>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  <!-- Berita -->
+
+  <!-- Layanan -->
+    <div style="background-image: url(landings/img/Shape/21.png);" class="layanan-kami">
+      <div class="container">
+        <div class="row text-center p-5">
+          <div class="col-lg-10 col-md-10 col-sm-12 col-12 mx-auto pb-5 position-relative">
+            <h2>Layanan Pelatihan Kami</h2>
+          </div>
+            <div class="row text-center">
+              <div class="single-item col-lg-4 col-md-6">
+                <div class="col mb-4">
+                  <figure style="--c:#fff5">
+                    <img src="landings/img/p3.jpg" alt="Mountains">
+                    <figcaption>P3</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="single-item col-lg-4 col-md-6">
+                <div class="col mb-4">
+                  <figure style="--c:#fff5">
+                    <img src="landings/img/pkk.jpg" alt="Mountains">
+                    <figcaption>Pelatihan Kuliner Kreatif</figcaption>
+                  </figure>
+                </div>
+              </div>
+              <div class="single-item col-lg-4 col-md-6">
+                <div class="col mb-4">
+                  <figure>
+                    <img src="landings/img/tqc.jpg" alt="Mountains">
+                    <figcaption>Total Quality Control</figcaption>
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 text-right">
+              <a href="pelatihan.html">
+                <button class="btn btn-primary float-right" type="button">Selengkapnya</button>
+              </a>
+            </div>
+        </div>
+
+
+
+        <div class="row text-center p-5">
+          <div class="col-lg-10 col-md-10 col-sm-12 col-12 mx-auto pt-xl-5 mb-4 position-relative">
+            <h6>Fasilitas BLK Semarang 2</h6>
+          </div>
+        </div>
+        <div class="row text-center p-5">
+          <div class="single-item col-lg-4 col-md-6">
+            <img src="landings/img/Shape/kamar.png" alt="logo">
+            <br>
+            <br>
+            <h6>Kamar Asrama</h6>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="landings/img/asrama.jpg" class="card-img-top" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="single-item col-lg-4 col-md-6">
+            <img src="landings/img/Shape/tenis.png" alt="logo">
+            <br>
+            <br>
+            <h6>Lapangan Tenis</h6>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="landings/img/tenis.jpg" class="card-img-top" alt="gambar" />
+              </div>
+            </div>
+          </div>
+          <div class="single-item col-lg-4 col-md-6">
+            <img src="landings/img/Shape/aula.png" alt="logo">
+            <br>
+            <br>
+            <h6>Aula</h6>
+            <div class="col mb-4">
+              <div class="card">
+                <img src="landings/img/aula.webp" class="card-img-top" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> 
+  <!-- Layanan -->
+  
+  <!-- Footer -->
+    <div id="footer" style="background-image: url(landings/img/Shape/100.png);" class="footer">
+      <div class="container pl-5 pr-5">
+        <div class="d-flex text-center text-lg-left align-items-center align-items-lg-end justify-content-between flex-column flex-lg-row">
+          <div class="site-info">
+            <a routerlink="/" href="https://kemnaker.go.id/">
+              <img class="logo-display" src="landings/img/logo1.png">
+            </a>
+            <h5 class="mb-0">Balai Latihan Kerja Semarang 2</h5>
+            <h4 class="location">Jl. Brigjen Sudiarto No. 375, Gemah, Pedurungan, Semarang, Jawa Tengah 50426</h4>
+            <div class="d-flex flex-column flex-lg-row">
+              <h4 class="phone">Telp: 024-8440513</h4>
+              <h4 class="email">Email: blksemarang2@gmail.com</h4>
+            </div>
+          </div>
+          <div class="d-flex flex-row align-items-center align-items-lg-end mt-4">
+            <div class="social-icon justify-content-between">
+              <a href="https://www.facebook.com/BLKSemarang2/"> <img src='landings/img/Shape/facebook.png'></i><span class="social-icon"></span> </a>
+              <a href="https://www.instagram.com/blk_semarang2/" class="nav_link active"> <img src='landings/img/Shape/instagram.png'></i><span class="social-icon"></span> </a>
+              <a href="https://twitter.com/blksemarang2?lang=en" class="nav_link active"> <img src='landings/img/Shape/twitter.png'></i><span class="social-icon"></span> </a>
+              <a href="https://www.tiktok.com/@blksemarang2?_t=8a8NA4aCF9u&_r=1" class="nav_link active"> <img src='landings/img/Shape/tiktok.png'></i><span class="social-icon"></span> </a>
+              <a href="https://www.youtube.com/@blksemarang225" class="nav_link active"> <img src='landings/img/Shape/youtube.png'></i><span class="social-icon"></span> </a>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex flex-row text-center text-lg-left mx-auto pt-xl-4">
+          <h4>Copyright © 2023 BLK2 Provinsi Jawa Tengah</h4>
+        </div>
+      </div>
+    </div>
+  <!-- Footer -->
+  <!-- jQuery Frameworks
+    ============================================= -->
+  <script src="landings/js/jquery-3.6.0.min.js"></script>
+  <script src="landings/js/popper.min.js"></script>
+  <script src="landings/js/bootstrap.min.js"></script>
+  <script src="landings/js/bootsnav.js"></script>
+  <script src="landings/js/main.js"></script>
+  <script src="landings/js/owl.carousel.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+
+</html>
